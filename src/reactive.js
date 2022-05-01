@@ -1,7 +1,12 @@
-export function observe() {
+export function observe(compute) {
+
+ return compute();
 
 }
 
-export function observable() {
+export function observable(obj) {
+  const temp = obj;
 
+  return temp;
 }
+
